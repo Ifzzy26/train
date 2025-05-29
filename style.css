@@ -118,7 +118,7 @@ header .logo {
   
 .Google img {
   max-height: 50px;
-    max-width: 90px;
+    max-width: 60px;
     flex: 1 1;
     /* object-fit: contain; */
   }
@@ -368,6 +368,7 @@ header .logo {
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
+  padding-top: 60px;
   padding-bottom: 60px; 
   background-color: #fff;
   border-top: 1px solid #eee;
@@ -531,6 +532,11 @@ header nav {
     justify-content: center;
   } 
 
+  .Google{
+    margin-bottom: 50px;
+    margin-top: -10px;
+  }
+
   .features-section{
     width: 90%;
   }
@@ -540,7 +546,7 @@ header nav {
   }
 
   .features-row {
-    /* width: 100%; */
+    width: 100%;
     display: flex;
    flex-direction: column;
    align-items: center;
@@ -548,6 +554,7 @@ header nav {
 
   .mobile-preview-section {
     display: flex;
+    /* width: 90%; */
     flex-direction: column-reverse;
     align-items: center;
   }
